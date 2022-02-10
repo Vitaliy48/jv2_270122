@@ -21,9 +21,7 @@ public class Phone {
             PhoneDirectory.put(surname, thePhoneNumber);
         }
     }
-
     public List<String> get(String surname) {
         return PhoneDirectory.get(surname);
     }
-
 }
