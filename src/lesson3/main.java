@@ -26,7 +26,6 @@ public class main {
         System.out.println(Arrays.toString((words)));
         System.out.println();
 
-
         Phone phonebook = new Phone();
         phonebook.add("Петров", "123456789");
         phonebook.add("Иванов", "234567891");
@@ -42,4 +41,3 @@ public class main {
         System.out.println("Телефон Иванов" + phonebook.get("Иванов"));
     }
 }
-
